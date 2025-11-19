@@ -20,6 +20,7 @@ This document lists all available Claude Code plugins and their commands in the 
 - [Node Tuning](#node-tuning-plugin)
 - [Olm](#olm-plugin)
 - [Openshift](#openshift-plugin)
+- [Operator Upgrade](#operator-upgrade-plugin)
 - [Origin](#origin-plugin)
 - [Prow Job](#prow-job-plugin)
 - [Session](#session-plugin)
@@ -239,6 +240,15 @@ OpenShift development utilities and helpers
 - **`/openshift:visualize-ovn-topology`** - Generate and visualize OVN-Kubernetes network topology diagram
 
 See [plugins/openshift/README.md](plugins/openshift/README.md) for detailed documentation.
+
+### Operator Upgrade Plugin
+
+Upgrade Go and Kubernetes versions in OpenShift operator repositories with version verification
+
+**Commands:**
+- **`/operator-upgrade:multiarch-tuning-operator-upgrade-versions` `<go-version> <k8s-version> [--repo-path PATH]`** - Upgrade Go and Kubernetes versions following official OCP release process
+
+See [plugins/operator-upgrade/README.md](plugins/operator-upgrade/README.md) for detailed documentation.
 
 ### Origin Plugin
 

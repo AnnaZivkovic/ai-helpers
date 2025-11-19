@@ -1,0 +1,8 @@
+{
+  "name": "operator-upgrade",
+  "description": "Upgrade Go and Kubernetes versions in OpenShift operator repositories with version verification",
+  "version": "0.0.1",
+  "author": {
+    "name": "github.com/openshift-eng"
+  }
+}

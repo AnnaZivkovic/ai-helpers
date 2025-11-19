@@ -975,6 +975,22 @@
         }
       ],
       "version": "0.0.1"
+    },
+    {
+      "commands": [
+        {
+          "argument_hint": "<go-version> <k8s-version> [--repo-path PATH]",
+          "description": "Upgrade Go and Kubernetes versions following official OCP release process",
+          "name": "multiarch-tuning-operator-upgrade-versions",
+          "synopsis": "/operator-upgrade:multiarch-tuning-operator-upgrade-versions <go-version> <k8s-version> [--repo-path PATH]"
+        }
+      ],
+      "description": "Upgrade Go and Kubernetes versions in OpenShift operator repositories with version verification",
+      "has_readme": true,
+      "hooks": [],
+      "name": "operator-upgrade",
+      "skills": [],
+      "version": "0.0.1"
     }
   ]
 }

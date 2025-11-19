@@ -128,6 +128,11 @@
       "name": "bigquery",
       "source": "./plugins/bigquery",
       "description": "BigQuery analysis utilities"
+    },
+    {
+      "name": "operator-upgrade",
+      "source": "./plugins/operator-upgrade",
+      "description": "Upgrade Go and Kubernetes versions in OpenShift operator repositories with version verification"
     }
   ]
 }
